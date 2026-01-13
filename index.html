@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HookStoken | Riding the Uniswap v4 Hook Revolution</title>
-    <meta name="description" content="HookStoken celebrates the revolutionary power of Uniswap v4's hooks technology.">
+    <title>Pysoptama</title>
+    <meta name="description" content="Pysoptama">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://i.postimg.cc/k45MMbgt/hookstoken_logo_(1).png">
+    <link rel="icon" type="image/png" href="/logo.jpg">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
                 extend: {
                     colors: {
                         deepBlue: '#010621',
-                        neonPurple: '#dc6cfb',
+                        neonPurple: '#6c75fb',
                         glassWhite: 'rgba(255, 255, 255, 0.05)',
                     },
                     fontFamily: {
@@ -64,7 +64,7 @@
             position: fixed;
             width: 500px;
             height: 500px;
-            background: radial-gradient(circle, rgba(220, 108, 251, 0.15) 0%, rgba(1, 6, 33, 0) 70%);
+            background: radial-gradient(circle, rgba(122, 108, 251, 0.15) 0%, rgba(1, 6, 33, 0) 70%);
             border-radius: 50%;
             pointer-events: none;
             z-index: -1;
@@ -88,8 +88,8 @@
             background: rgba(1, 6, 33, 0.7);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(220, 108, 251, 0.2);
-            box-shadow: 0 4px 20px rgba(220, 108, 251, 0.1);
+            border-bottom: 1px solid rgba(108, 146, 251, 0.2);
+            box-shadow: 0 4px 20px rgba(108, 165, 251, 0.1);
         }
 
         .glass-card {
@@ -105,13 +105,13 @@
             position: absolute;
             top: 0; left: -100%;
             width: 100%; height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(220, 108, 251, 0.1), transparent);
+            background: linear-gradient(90deg, transparent, rgba(108, 134, 251, 0.1), transparent);
             transition: 0.5s;
         }
 
         .glass-card:hover {
-            border-color: #dc6cfb;
-            box-shadow: 0 0 25px rgba(220, 108, 251, 0.2);
+            border-color: #6c75fb;
+            box-shadow: 0 0 25px rgba(110, 108, 251, 0.2);
             transform: translateY(-5px);
         }
 
@@ -121,11 +121,11 @@
 
         /* Typography & Text Effects */
         .text-glow {
-            text-shadow: 0 0 10px rgba(220, 108, 251, 0.7);
+            text-shadow: 0 0 10px rgba(108, 110, 251, 0.7);
         }
         
         .gradient-text {
-            background: linear-gradient(to right, #fff, #dc6cfb);
+            background: linear-gradient(to right, #fff, #7a6cfb);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -134,7 +134,7 @@
         .btn-glass {
             background: rgba(220, 108, 251, 0.1);
             backdrop-filter: blur(4px);
-            border: 1px solid #dc6cfb;
+            border: 1px solid #6e6cfb;
             color: white;
             transition: all 0.3s ease;
             position: relative;
@@ -147,14 +147,14 @@
             position: absolute;
             bottom: 0; left: 0;
             width: 100%; height: 0%;
-            background-color: #dc6cfb;
+            background-color: #6c6efb;
             transition: all 0.3s ease;
             z-index: -1;
         }
 
         .btn-glass:hover {
             color: #fff;
-            box-shadow: 0 0 20px #dc6cfb;
+            box-shadow: 0 0 20px #6c6efb;
             border-color: #fff;
         }
 
@@ -207,24 +207,23 @@
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
             <!-- Logo -->
             <a href="index.html" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 group">
-                <img src="https://i.postimg.cc/k45MMbgt/hookstoken_logo_(1).png" alt="HookStoken Logo" class="w-10 h-10 group-hover:scale-110 transition-transform duration-300">
-                <span class="font-display font-bold text-xl tracking-wider group-hover:text-neonPurple transition-colors">HOOKSTOKEN</span>
+                <img src="/logo.jpg" alt="HookStoken Logo" class="w-10 h-10 group-hover:scale-110 transition-transform duration-300">
+                <span class="font-display font-bold text-xl tracking-wider group-hover:text-neonPurple transition-colors">PSYOPTAMA</span>
             </a>
 
             <!-- Desktop Menu -->
             <nav class="hidden md:flex items-center gap-8">
                 <a href="index.html#about" class="text-sm font-medium hover:text-neonPurple transition-colors">About</a>
-                <a href="index.html#roadmap" class="text-sm font-medium hover:text-neonPurple transition-colors">Roadmap</a>
                 <a href="index.html#tokenomics" class="text-sm font-medium hover:text-neonPurple transition-colors">Tokenomics</a>
                 <a href="index.html#how-to-buy" class="text-sm font-medium hover:text-neonPurple transition-colors">How to Buy</a>
             </nav>
 
             <!-- Social Icons (Desktop) -->
             <div class="hidden md:flex items-center gap-4">
-                <a href="https://x.com/onlyonehooks_?s=21" target="_blank" rel="noopener noreferrer" class="hover:text-neonPurple transition-transform hover:scale-110">
+                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="hover:text-neonPurple transition-transform hover:scale-110">
                     <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                 </a>
-                <a href="https://t.me/HOOKSPORTAL" target="_blank" rel="noopener noreferrer" class="hover:text-neonPurple transition-transform hover:scale-110">
+                <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="hover:text-neonPurple transition-transform hover:scale-110">
                     <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M11.944 0C5.345 0 0 5.345 0 11.944s5.345 11.946 11.944 11.946c6.599 0 11.944-5.345 11.944-11.944S18.543 0 11.944 0zm5.008 8.71-2.287 10.755c-.173.775-.62.963-1.257.6l-3.492-2.573-1.685 1.625c-.186.186-.343.343-.703.343l.253-3.57 6.494-5.867c.282-.249-.061-.388-.436-.139l-8.024 5.051-3.45-1.078c-.75-.235-.766-.75.157-1.111l13.486-5.205c.62-.285 1.163.139.964 1.084z"/></svg>
                 </a>
             </div>
@@ -238,7 +237,6 @@
         <!-- Mobile Menu Overlay -->
         <div id="mobile-menu" class="mobile-menu fixed inset-0 bg-deepBlue/95 backdrop-blur-xl h-screen flex flex-col items-center justify-center gap-8 md:hidden z-40">
             <a href="index.html#about" class="text-2xl font-bold hover:text-neonPurple transition-colors mobile-link">About</a>
-            <a href="index.html#roadmap" class="text-2xl font-bold hover:text-neonPurple transition-colors mobile-link">Roadmap</a>
             <a href="index.html#tokenomics" class="text-2xl font-bold hover:text-neonPurple transition-colors mobile-link">Tokenomics</a>
             <a href="index.html#how-to-buy" class="text-2xl font-bold hover:text-neonPurple transition-colors mobile-link">How to Buy</a>
             
@@ -255,16 +253,16 @@
             <!-- Text Content -->
             <div class="order-2 lg:order-1 text-center lg:text-left reveal active">
                 <div class="inline-block px-4 py-2 rounded-full border border-neonPurple/50 bg-neonPurple/10 text-neonPurple text-sm font-bold mb-6 tracking-wide animate-pulse">
-                    UNISWAP V4 REVOLUTION
+                    PSYOPTAMA - The Future is Here
                 </div>
                 <h1 class="text-5xl md:text-7xl font-display font-bold mb-6 leading-tight">
-                    Welcome to <br> <span class="gradient-text text-glow">HookStoken</span>
+                    Welcome to <br> <span class="gradient-text text-glow">PSYOPTAMA</span>
                 </h1>
                 <p class="text-gray-300 text-lg md:text-xl mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
-                    Riding the Uniswap v4 Hook Revolution. The first token dedicated to the programmable liquidity layer transforming DeFi.
+                    Pysoptama doesn’t react to noise or emotion. While others chase hype and panic at every move, it stays calm, detached, and patient.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                    <a href="index.html#" target="_blank" rel="noopener noreferrer" class="btn-glass px-8 py-4 rounded-full font-bold text-center">Buy on Uniswap</a>
+                    <a href="index.html#" target="_blank" rel="noopener noreferrer" class="btn-glass px-8 py-4 rounded-full font-bold text-center">Buy $PSYOPTAMA</a>
                     <a href="index.html#" target="_blank" rel="noopener noreferrer" class="btn-glass px-8 py-4 rounded-full font-bold text-center">View Dexscreener</a>
                     <a href="index.html#" target="_blank" rel="noopener noreferrer" class="btn-glass px-8 py-4 rounded-full font-bold text-center">View Dextools</a>
                 </div>
@@ -273,12 +271,12 @@
             <!-- Hero Images -->
             <div class="order-1 lg:order-2 relative flex justify-center items-center reveal active">
                 <div class="relative w-full max-w-md animate-float">
-                    <img src="https://i.postimg.cc/V6NssCk7/hero_image.png" alt="HookStoken Hero" class="w-full h-auto drop-shadow-[0_0_30px_rgba(220,108,251,0.5)]">
+                    <img src="/logo.jpg" alt="HookStoken Hero" class="w-full h-auto drop-shadow-[0_0_30px_rgba(220,108,251,0.5)]">
                     
-                    <!-- Spinning Logo Overlay -->
+                    <!-- Spinning Logo Overlay 
                     <div class="absolute -bottom-10 -right-5 md:right-0 w-24 h-24 md:w-32 md:h-32 flex items-center justify-center p-2 ">
                         <img src="https://i.postimg.cc/4d3449xy/hooks_spinning.gif" alt="Spinning Hook" class="w-full h-full object-contain rounded-full">
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -290,22 +288,20 @@
             <div class="glass-panel p-8 md:p-12 reveal">
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div>
-                        <h2 class="text-3xl md:text-5xl font-display font-bold mb-6">About <span class="text-neonPurple">HookStoken</span></h2>
+                        <h2 class="text-3xl md:text-5xl font-display font-bold mb-6">About <span class="text-neonPurple">PSYOPTAMA</span></h2>
                         <div class="space-y-6 text-gray-300 leading-relaxed">
                             <p>
-                                HookStoken celebrates the revolutionary power of Uniswap v4's hooks technology that's transforming DeFi. When v4 launched in January 2025, it shattered records by hitting $1 billion TVL in just 21 days—twice as fast as v3.
+                               Pysoptama doesn’t react to noise or emotion. While others chase hype and panic at every move, it stays calm, detached, and patient. 
                             </p>
                             <p>
-                                With over 5,000 hooks deployed by December, developers discovered they could finally inject custom logic into pools, enabling dynamic fees, MEV protection, and automated rebalancing that seemed impossible before.
+                                There’s no rush, no announcement—only quiet certainty. By the time it finally acts, the outcome is already decided, and everyone else is left trying to understand what they missed.
                             </p>
-                            <p>
-                                HookStoken isn't just another meme coin. It's a tribute to the innovation that's turning Uniswap from a rigid DEX into a flexible playground for DeFi builders. We're here to ride the hook wave and bring the community along for the journey.
-                            </p>
+
                         </div>
                     </div>
                     <div class="relative flex justify-center">
                         <div class="glass-card rounded-2xl p-2 rotate-3 hover:rotate-0 transition-transform duration-500">
-                            <img src="https://i.postimg.cc/ZRqYYd5d/hook_imgae.png" alt="Uniswap V4 Hook Concept" class="w-full max-w-sm rounded-xl">
+                            <img src="/material1.jpg" alt="Uniswap V4 Hook Concept" class="w-full max-w-sm rounded-xl">
                         </div>
                         <!-- Decorative blurred blob behind image -->
                         <div class="absolute inset-0 bg-neonPurple opacity-20 blur-3xl -z-10 rounded-full"></div>
